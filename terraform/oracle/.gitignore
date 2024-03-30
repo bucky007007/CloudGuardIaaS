@@ -1,0 +1,16 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+#*.zip*
+*.tfvars
+
+# swap files
+*.swp
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
