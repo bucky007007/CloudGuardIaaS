@@ -1,6 +1,6 @@
 # Check Point Security Gateway Cluster - BYOL
 
-This quick start deploys two Check Point R80.40 Security Gateways to be configured as a HA cluster.
+This quick start deploys two Check Point Security Gateways to be configured as a HA cluster.
 
 There are two options for deployment:
 - create a new network with a public and private subnet to launch the gateways into
@@ -8,7 +8,7 @@ There are two options for deployment:
 
 The gateways are configured with the following topology:
 
-![](./images/cp_cluster_topology.png)
+![](./ClusterTopology.png)
 
 Each gateway is created with two VNICs, one on the public subnet and one on the private subnet. 
 
