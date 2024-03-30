@@ -1,6 +1,6 @@
 # Check Point Security Gateway Cluster - BYOL
 
-This quick start deploys two Check Point Security Gateways to be configured as a HA cluster.
+This quick start deploys two Check Point R80.40 Security Gateways to be configured as a HA cluster.
 
 There are two options for deployment:
 - create a new network with a public and private subnet to launch the gateways into
@@ -8,7 +8,7 @@ There are two options for deployment:
 
 The gateways are configured with the following topology:
 
-![](./ClusterTopology.png)
+![](./images/cp_cluster_topology.png)
 
 Each gateway is created with two VNICs, one on the public subnet and one on the private subnet. 
 
@@ -20,4 +20,4 @@ The First Time Wizard for both instances are handled by a cloud-init script.
 
 The password for the gateway must be set by SSHing to the instance, and password authentication over SSH is disabled by default
 
-Once the deployment has finished, follow the Deployment Guide to complete setup [guide](https://sc1.checkpoint.com/documents/IaaS/WebAdminGuides/EN/CP_CloudGuard_Network_for_Oracle_Cloud_Getting_Started/Content/Topics-Oracle-GS/Introduction.htm) to finish configuring the cluster with a Check Point security management server.
+Once the deployment has finished, follow the part 6 of this [guide](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk142872&partition=General&product=CloudGuard) to finish configuring the cluster with a Check Point security management server.
